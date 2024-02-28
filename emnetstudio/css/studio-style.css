@@ -1,0 +1,195 @@
+@import url(../Roboto/Roboto-Regular.ttf);
+
+@font-face {
+    font-family: Roboto;
+    src: url(../Roboto/Roboto-Regular.ttf);
+}
+
+:root {
+    --Roboto: 'Roboto', sans-serif;
+    --white: #fff;
+}
+
+* {
+    font-family: var(--Roboto);
+}
+
+body {
+    background: url(../music_studio4.jpg), #000000 !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    height: 100% !important;
+    
+    background-position: fixed !important;
+}
+
+#wrapper .sidebar {
+    background: #000000 !important;
+    position: static !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0 -4px 5px #f3f3f369;
+}
+
+#wrapper .sidebar a {
+    color: #fff;
+}
+
+#wrapper .sidebar a.sidebar-brand {
+    font-size: 10px !important;
+}
+
+#wrapper .sidebar .sidebar-divider {
+    border: .6px solid #99999956;
+}
+
+#wrapper .sidebar .collapse .collapse-item:hover {
+    color: #333 !important;
+}
+
+.topbar {
+    z-index: 3000;
+    background: rgba(0, 0, 0, 0.836);
+    backface-visibility: blur(50px);
+}
+
+
+#content-wrapper {
+    background: #6464640e !important;
+    position: relative;
+}
+
+#content-wrapper .alert-message {
+    color: var(--white) !important;
+    z-index: 1000000;
+    background: url(../music_studio6.jpg);
+    top: 0;
+    right: 0%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: fixed;
+}
+
+#content-wrapper .alert-message .sec-bg {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.637);
+    z-index: 200;
+}
+
+#content-wrapper .alert-message .info-text{
+    font-size: 20px;
+    max-width: 50%;
+    z-index: 3000;
+    text-align: center;
+}
+
+#creatorLink{
+    color: rgb(2, 13, 51);
+    border-bottom: 1px solid #474747;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 3px;
+    transition: .5s linear;
+}
+
+#creatorLink:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.637);
+}
+
+/* FOR LOADER DOTS */
+.dots {
+    position: relative;
+    top: 6%;
+    width: 80%;
+    height: 100px;
+    opacity: .5;
+}
+
+.dots span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(calc(36deg * var(--i)));
+}
+
+.dots span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: transparent;
+    border: 4px solid #00efff;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #00efff,
+        -30px -30px 0 #00efff,
+        -30px -30px 20px #00efff,
+        30px 30px 0px #00efff,
+        30px 30px 20px #00efff,
+        30px -30px 0px #00efff,
+        30px -30px 20px #00efff,
+        -30px 30px 0px #00efff,
+        -30px 30px 20px #00efff;
+    animation: animate 5s linear infinite;
+    animation-delay: calc(-0.25s * var(--i));
+    transform-origin: 30px;
+    transition: 2s;
+}
+
+.dots:hover span::before {
+    box-shadow: 0 0 20px #00efff,
+        -200px -200px 0 #00efff,
+        -200px -200px 20px #00efff,
+        200px 200px 0px #00efff,
+        200px 200px 20px #00efff,
+        200px -200px 0px #00efff,
+        200px -200px 20px #00efff,
+        -200px 200px 0px #00efff,
+        -200px 200px 20px #00efff;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    25%{
+        box-shadow: 0 0 20px #00efff,
+        -200px -200px 0 #00efff,
+        -200px -200px 20px #00efff,
+        200px 200px 0px #00efff,
+        200px 200px 20px #00efff,
+        200px -200px 0px #00efff,
+        200px -200px 20px #00efff,
+        -200px 200px 0px #00efff,
+        -200px 200px 20px #00efff;
+    }
+    50%{
+        box-shadow: 0 0 20px #00efff,
+        -100px -200px 0 #00efff,
+        -100px -200px 20px #00efff,
+        100px 200px 0px #00efff,
+        200px 200px 20px #00efff,
+        200px -200px 0px #00efff,
+        200px -200px 20px #00efff,
+        -200px 200px 0px #00efff,
+        -200px 200px 20px #00efff;
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

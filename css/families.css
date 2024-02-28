@@ -1,0 +1,55 @@
+@import url(./fonts.css);
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Abel: "Abel", cursive;
+    --Aladin: "Aladin", cursive;
+    --Comforter: "Comforter", cursive;
+    --Oswald: 'Oswald', cursive;
+    --Galada: "Galada", cursive;
+    --Josefin: "Josefin", cursive;
+    --Lobster: "Lobster", cursive;
+    --Lobster2: "Lobster2", cursive;
+    --Mplus: "Mplus", cursive;
+    --Open_Sans: "Open_Sans", cursive;
+    --Oswald: "Oswald", cursive;
+    --Outfit: "Outfit", cursive;
+    --Pacifico: "Pacifico", cursive;
+    --Patua_One: "Patua_One", cursive;
+    --Poppins: "Poppins", cursive;
+    --Roboto: "Roboto", cursive;
+    --Roboto_Condensed: "Roboto_Condensed", cursive;
+    --Roboto_Mono: "Roboto_Mono", cursive;
+    --Rubik: "Rubik", cursive;
+    --Truculenta: "Truculenta", cursive;
+    --Ubuntu: "Ubuntu", cursive;
+
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+
+    /* Colors */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+    --malibu: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    --sunset: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    --star-wine: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    --deep-blue: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    --grats: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+

@@ -1,0 +1,115 @@
+/* latin */
+@font-face {
+    font-family: Abel;
+    src: url(../fonts/Abel/Abel-Regular.ttf);
+}
+
+@font-face {
+    font-family: Aladin;
+    src: url(../fonts/Aladin/Aladin-Regular.ttf);
+}
+
+@font-face {
+    font-family: Comforter;
+    src: url(../fonts/Comforter/Comforter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Galada;
+    src: url(../fonts/Galada/Galada-Regular.ttf);
+}
+
+@font-face {
+    font-family: Itim;
+    src: url(../fonts/Itim/Itim-Regular.ttf);
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url(../fonts/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(../fonts/Jost/static/Jost-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lobster2;
+    src: url(../fonts/Lobster_Two/LobsterTwo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mplus;
+    src: url(../fonts/M_PLUS_1_Code/MPLUS1Code-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Open_sans;
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: Patua_One;
+    src: url(../fonts/Patua_One/PatuaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Patua_One/PatuaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Condensed;
+    src: url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto_Mono;
+    src: url(../fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Truculenta;
+    src: url(../fonts/Truculenta/Truculenta-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
